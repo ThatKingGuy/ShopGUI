@@ -1,0 +1,10 @@
+name: ShopGUI
+version: ${project.version}
+main: com.gabe.shopgui.ShopGUI
+api-version: 1.13
+depend: [Vault]
+authors: [gabe]
+description: Shop GUI plugin
+
+commands:
+  shop:

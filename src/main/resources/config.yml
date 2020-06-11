@@ -1,0 +1,1265 @@
+shops:
+  blocks:
+    name: "&9&lBlocks (page %page%)"
+    items:
+      1:
+        item:
+          material: GRASS_BLOCK
+        buyPrice: 25
+        sellPrice: 2
+      2:
+        item:
+          material: DIRT
+        buyPrice: 18
+        sellPrice: 1.5
+      3:
+        item:
+          material: COARSE_DIRT
+        buyPrice: 25
+        sellPrice: 2
+      4:
+        item:
+          material: PODZOL
+        buyPrice: 25
+        sellPrice: 2
+      5:
+        item:
+          material: MYCELIUM
+        buyPrice: 25
+        sellPrice: 2
+      6:
+        item:
+          material: PRISMARINE
+        buyPrice: 28
+        sellPrice: 12
+      7:
+        item:
+          material: PRISMARINE_BRICKS
+        buyPrice: 65
+        sellPrice: 20
+      8:
+        item:
+          material: DARK_PRISMARINE
+        buyPrice: 65
+        sellPrice: 20
+      9:
+        item:
+          material: SEA_LANTERN
+        buyPrice: 1050
+        sellPrice: 160
+      10:
+        item:
+          material: STONE
+        buyPrice: 8
+        sellPrice: 1
+      11:
+        item:
+          material: COBBLESTONE
+        buyPrice: 6.25
+        sellPrice: 1
+      12:
+        item:
+          material: STONE_BRICKS
+        buyPrice: 10
+        sellPrice: 1.35
+      13:
+        item:
+          material: ANDESITE
+        buyPrice: 5
+        sellPrice: 1.2
+      14:
+        item:
+          material: POLISHED_ANDESITE
+        buyPrice: 6
+        sellPrice: 1.2
+      15:
+        item:
+          material: MOSSY_COBBLESTONE
+        buyPrice: 8.5
+        sellPrice: 1.5
+      16:
+        item:
+          material: GRAVEL
+        buyPrice: 5
+        sellPrice: 1.35
+      17:
+        item:
+          material: DIORITE
+        buyPrice: 5
+        sellPrice: 1.2
+      18:
+        item:
+          material: POLISHED_DIORITE
+        buyPrice: 6
+        sellPrice: 1.2
+      19:
+        item:
+          material: OAK_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      20:
+        item:
+          material: JUNGLE_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      21:
+        item:
+          material: SPRUCE_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      22:
+        item:
+          material: DARK_OAK_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      23:
+        item:
+          material: ACACIA_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      24:
+        item:
+          material: BIRCH_LOG
+        buyPrice: 7
+        sellPrice: 0.95
+      25:
+        item:
+          material: GRANITE
+        buyPrice: 5
+        sellPrice: 1.2
+      26:
+        item:
+          material: POLISHED_GRANITE
+        buyPrice: 6
+        sellPrice: 1.2
+      27:
+        item:
+          material: TERRACOTTA
+        buyPrice: 20
+        sellPrice: 4
+      28:
+        item:
+          material: QUARTZ_BLOCK
+        buyPrice: 95
+        sellPrice: 15
+      29:
+        item:
+          material: CHISELED_QUARTZ_BLOCK
+        buyPrice: 110
+        sellPrice: 18
+      30:
+        item:
+          material: QUARTZ_PILLAR
+        buyPrice: 102
+        sellPrice: 16.5
+      31:
+        item:
+          material: SNOW_BLOCK
+        buyPrice: 8
+        sellPrice: 0.35
+      32:
+        item:
+          material: GLASS
+        buyPrice: 25
+        sellPrice: 1.5
+      33:
+        item:
+          material: CLAY
+        buyPrice: 25
+        sellPrice: 3.5
+
+  food:
+    name: "&2&lFood (page %page%)"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: MELON
+          quantity: 10
+        buyPrice: 30
+        sellPrice: 6
+        slot: 0
+      2:
+        type: item
+        item:
+          material: APPLE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 1
+      3:
+        type: item
+        item:
+          material: GOLDEN_APPLE
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 2
+      4:
+        type: item
+        item:
+          material: GOLDEN_APPLE
+          quantity: 1
+          damage: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 3
+      5:
+        type: item
+        item:
+          material: CARROT
+          quantity: 10
+        buyPrice: 30
+        sellPrice: 6
+        slot: 4
+      6:
+        type: item
+        item:
+          material: PUMPKIN_PIE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 5
+      7:
+        type: item
+        item:
+          material: BREAD
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 5
+        slot: 6
+      8:
+        type: item
+        item:
+          material: COOKED_CHICKEN
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 5
+        slot: 7
+      9:
+        type: item
+        item:
+          material: BAKED_POTATO
+          quantity: 10
+        buyPrice: 30
+        sellPrice: 6
+        slot: 8
+      10:
+        type: item
+        item:
+          material: MUSHROOM_STEW
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 9
+      11:
+        type: item
+        item:
+          material: COOKED_COD
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 10
+      12:
+        type: item
+        item:
+          material: COOKED_SALMON
+          quantity: 1
+          damage: 1
+        buyPrice: 25
+        sellPrice: 5
+        slot: 11
+      13:
+        type: item
+        item:
+          material: COOKED_RABBIT
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 12
+      14:
+        type: item
+        item:
+          material: RABBIT_STEW
+          quantity: 1
+        buyPrice: 40
+        sellPrice: 8
+        slot: 13
+      15:
+        type: item
+        item:
+          material: PAPER
+          quantity: 1
+        buyPrice: 30
+        sellPrice: 6
+        slot: 14
+      16:
+        type: item
+        item:
+          material: COOKED_BEEF
+          quantity: 1
+        buyPrice: 30
+        sellPrice: 6
+        slot: 15
+      17:
+        type: item
+        item:
+          material: COOKED_MUTTON
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 5
+        slot: 16
+      18:
+        type: item
+        item:
+          material: COOKIE
+          quantity: 10
+        buyPrice: 30
+        sellPrice: 6
+        slot: 17
+      19:
+        type: item
+        item:
+          material: CAKE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 18
+  ores:
+    name: "&3&lOres (page %page%)"
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: COAL
+          quantity: 32
+        buyPrice: 100
+        sellPrice: 10
+        slot: 0
+      2:
+        type: item
+        item:
+          material: REDSTONE
+          quantity: 64
+        buyPrice: 20
+        sellPrice: 4
+        slot: 1
+      3:
+        type: item
+        item:
+          material: INK_SAC
+          quantity: 64
+          damage: 4
+        buyPrice: 20
+        sellPrice: 4
+        slot: 2
+      4:
+        type: item
+        item:
+          material: IRON_INGOT
+          quantity: 8
+        buyPrice: 300
+        sellPrice: 30
+        slot: 3
+      5:
+        type: item
+        item:
+          material: GOLD_INGOT
+          quantity: 8
+        buyPrice: 300
+        sellPrice: 30
+        slot: 4
+      6:
+        type: item
+        item:
+          material: DIAMOND
+          quantity: 8
+        buyPrice: 1000
+        sellPrice: 100
+        slot: 5
+      7:
+        type: item
+        item:
+          material: EMERALD
+          quantity: 8
+        buyPrice: 200
+        sellPrice: 40
+        slot: 6
+      8:
+        type: item
+        item:
+          material: QUARTZ
+          quantity: 64
+        buyPrice: 20
+        sellPrice: 4
+        slot: 7
+  tools:
+    name: "&8&lTools (page %page%)"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: GOLDEN_PICKAXE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 0
+      2:
+        type: item
+        item:
+          material: IRON_PICKAXE
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 1
+      3:
+        type: item
+        item:
+          material: DIAMOND_PICKAXE
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 2
+      4:
+        type: item
+        item:
+          material: GOLDEN_AXE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 3
+      5:
+        type: item
+        item:
+          material: IRON_AXE
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 4
+      6:
+        type: item
+        item:
+          material: DIAMOND_AXE
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 5
+      7:
+        type: item
+        item:
+          material: GOLDEN_SHOVEL
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 5
+        slot: 6
+      8:
+        type: item
+        item:
+          material: IRON_SHOVEL
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 10
+        slot: 7
+      9:
+        type: item
+        item:
+          material: DIAMOND_SHOVEL
+          quantity: 1
+        buyPrice: 750
+        sellPrice: 150
+        slot: 8
+      10:
+        type: item
+        item:
+          material: GOLDEN_HOE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 9
+      11:
+        type: item
+        item:
+          material: IRON_HOE
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 10
+      12:
+        type: item
+        item:
+          material: DIAMOND_HOE
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 11
+      13:
+        type: item
+        item:
+          material: FLINT_AND_STEEL
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 12
+      14:
+        type: item
+        item:
+          material: SHEARS
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 13
+      15:
+        type: item
+        item:
+          material: FISHING_ROD
+          quantity: 1
+        buyPrice: 150
+        sellPrice: 30
+        slot: 14
+  armor:
+    name: "&4&lArmor (page %page%)"
+    items:
+      1:
+        type: item
+        item:
+          material: LEATHER_HELMET
+          quantity: 1
+        buyPrice: 40
+        sellPrice: 8
+        slot: 1
+      2:
+        type: item
+        item:
+          material: GOLDEN_HELMET
+          quantity: 1
+        buyPrice: 160
+        sellPrice: 32
+        slot: 2
+      3:
+        type: item
+        item:
+          material: IRON_HELMET
+          quantity: 1
+        buyPrice: 480
+        sellPrice: 96
+        slot: 3
+      4:
+        type: item
+        item:
+          material: DIAMOND_HELMET
+          quantity: 1
+        buyPrice: 800
+        sellPrice: 160
+        slot: 4
+      5:
+        type: item
+        item:
+          material: LEATHER_CHESTPLATE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 10
+      6:
+        type: item
+        item:
+          material: GOLDEN_CHESTPLATE
+          quantity: 1
+        buyPrice: 200
+        sellPrice: 40
+        slot: 11
+      7:
+        type: item
+        item:
+          material: IRON_CHESTPLATE
+          quantity: 1
+        buyPrice: 600
+        sellPrice: 120
+        slot: 12
+      8:
+        type: item
+        item:
+          material: DIAMOND_CHESTPLATE
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 13
+      9:
+        type: item
+        item:
+          material: LEATHER_LEGGINGS
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 19
+      10:
+        type: item
+        item:
+          material: GOLDEN_LEGGINGS
+          quantity: 1
+        buyPrice: 200
+        sellPrice: 40
+        slot: 20
+      11:
+        type: item
+        item:
+          material: IRON_LEGGINGS
+          quantity: 1
+        buyPrice: 600
+        sellPrice: 120
+        slot: 21
+      12:
+        type: item
+        item:
+          material: DIAMOND_LEGGINGS
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 22
+      13:
+        type: item
+        item:
+          material: LEATHER_BOOTS
+          quantity: 1
+        buyPrice: 30
+        sellPrice: 6
+        slot: 28
+      14:
+        type: item
+        item:
+          material: GOLDEN_BOOTS
+          quantity: 1
+        buyPrice: 120
+        sellPrice: 24
+        slot: 29
+      15:
+        type: item
+        item:
+          material: IRON_BOOTS
+          quantity: 1
+        buyPrice: 360
+        sellPrice: 72
+        slot: 30
+      16:
+        type: item
+        item:
+          material: DIAMOND_BOOTS
+          quantity: 1
+        buyPrice: 600
+        sellPrice: 120
+        slot: 31
+      17:
+        type: item
+        item:
+          material: WOODEN_SWORD
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 4
+        slot: 6
+      18:
+        type: item
+        item:
+          material: GOLDEN_SWORD
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 15
+      19:
+        type: item
+        item:
+          material: IRON_SWORD
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 24
+      20:
+        type: item
+        item:
+          material: DIAMOND_SWORD
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 200
+        slot: 33
+      21:
+        type: item
+        item:
+          material: BOW
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 7
+      22:
+        type: item
+        item:
+          material: ARROW
+          quantity: 10
+        buyPrice: 50
+        sellPrice: 10
+        slot: 16
+      23:
+        type: item
+        item:
+          material: SNOWBALL
+          quantity: 16
+        buyPrice: 30
+        sellPrice: 5
+        slot: 25
+      24:
+        type: item
+        item:
+          material: FIRE_CHARGE
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 5
+        slot: 34
+  farming:
+    name: "&5&lFarming (page %page%)"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: WHEAT_SEEDS
+          quantity: 16
+        buyPrice: 10
+        sellPrice: 2
+        slot: 0
+      2:
+        type: item
+        item:
+          material: PUMPKIN_SEEDS
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 1
+      3:
+        type: item
+        item:
+          material: MELON_SEEDS
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 2
+      4:
+        type: item
+        item:
+          material: INK_SAC
+          quantity: 16
+          damage: 3
+        buyPrice: 50
+        sellPrice: 5
+        slot: 3
+      5:
+        type: item
+        item:
+          material: NETHER_WART
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 4
+      6:
+        type: item
+        item:
+          material: SUGAR_CANE
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 5
+      7:
+        type: item
+        item:
+          material: WHEAT
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 6
+      8:
+        type: item
+        item:
+          material: PUMPKIN
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 7
+      9:
+        type: item
+        item:
+          material: MELON
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 8
+      10:
+        type: item
+        item:
+          material: CACTUS
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 9
+      11:
+        type: item
+        item:
+          material: OAK_SAPLING
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 10
+      12:
+        type: item
+        item:
+          material: BIRCH_SAPLING
+          quantity: 16
+          damage: 1
+        buyPrice: 20
+        sellPrice: 2
+        slot: 11
+      13:
+        type: item
+        item:
+          material: DARK_OAK_SAPLING
+          quantity: 16
+          damage: 2
+        buyPrice: 20
+        sellPrice: 2
+        slot: 12
+      14:
+        type: item
+        item:
+          material: ACACIA_SAPLING
+          quantity: 16
+          damage: 3
+        buyPrice: 20
+        sellPrice: 2
+        slot: 13
+      15:
+        type: item
+        item:
+          material: JUNGLE_SAPLING
+          quantity: 16
+          damage: 4
+        buyPrice: 20
+        sellPrice: 2
+        slot: 14
+      16:
+        type: item
+        item:
+          material: SPRUCE_SAPLING
+          quantity: 16
+          damage: 5
+        buyPrice: 50
+        sellPrice: 5
+        slot: 15
+      17:
+        type: item
+        item:
+          material: BROWN_MUSHROOM
+          quantity: 8
+        buyPrice: 50
+        sellPrice: 5
+        slot: 16
+      18:
+        type: item
+        item:
+          material: RED_MUSHROOM
+          quantity: 8
+        buyPrice: 50
+        sellPrice: 5
+        slot: 17
+  dyes:
+    name: "&2&lDyes (page %page%)"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: BLACK_DYE
+          quantity: 16
+          damage: 0
+        buyPrice: 50
+        sellPrice: 5
+        slot: 0
+      2:
+        type: item
+        item:
+          material: RED_DYE
+          quantity: 16
+          damage: 1
+        buyPrice: 100
+        sellPrice: 20
+        slot: 1
+      3:
+        type: item
+        item:
+          material: ORANGE_DYE
+          quantity: 16
+          damage: 2
+        buyPrice: 100
+        sellPrice: 20
+        slot: 2
+      4:
+        type: item
+        item:
+          material: YELLOW_DYE
+          quantity: 16
+          damage: 3
+        buyPrice: 50
+        sellPrice: 5
+        slot: 3
+      5:
+        type: item
+        item:
+          material: LIME_DYE
+          quantity: 16
+          damage: 4
+        buyPrice: 20
+        sellPrice: 4
+        slot: 4
+      6:
+        type: item
+        item:
+          material: GREEN_DYE
+          quantity: 16
+          damage: 5
+        buyPrice: 100
+        sellPrice: 20
+        slot: 5
+      7:
+        type: item
+        item:
+          material: LIGHT_BLUE_DYE
+          quantity: 16
+          damage: 6
+        buyPrice: 100
+        sellPrice: 20
+        slot: 6
+      8:
+        type: item
+        item:
+          material: BLUE_DYE
+          quantity: 16
+          damage: 7
+        buyPrice: 100
+        sellPrice: 20
+        slot: 7
+      9:
+        type: item
+        item:
+          material: MAGENTA_DYE
+          quantity: 16
+          damage: 8
+        buyPrice: 100
+        sellPrice: 20
+        slot: 8
+      10:
+        type: item
+        item:
+          material: PINK_DYE
+          quantity: 16
+          damage: 9
+        buyPrice: 100
+        sellPrice: 20
+        slot: 9
+      11:
+        type: item
+        item:
+          material: PURPLE_DYE
+          quantity: 16
+          damage: 10
+        buyPrice: 100
+        sellPrice: 20
+        slot: 10
+      12:
+        type: item
+        item:
+          material: CYAN_DYE
+          quantity: 16
+          damage: 11
+        buyPrice: 100
+        sellPrice: 20
+        slot: 11
+      13:
+        type: item
+        item:
+          material: BROWN_DYE
+          quantity: 16
+          damage: 14
+        buyPrice: 100
+        sellPrice: 20
+        slot: 14
+      14:
+        type: item
+        item:
+          material: WHITE_DYE
+          quantity: 16
+          damage: 15
+        buyPrice: 100
+        sellPrice: 20
+        slot: 15
+  miscellanous:
+    name: "&3&lMiscellanous (page %page%)"
+    size: 27
+    buttons:
+      goBack:
+        slot: 22
+      previousPage:
+        slot: 21
+      nextPage:
+        slot: 23
+    items:
+      1:
+        type: item
+        item:
+          material: BUCKET
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 10
+        slot: 0
+      2:
+        type: item
+        item:
+          material: WATER_BUCKET
+          quantity: 1
+        buyPrice: 200
+        sellPrice: 20
+        slot: 1
+      3:
+        type: item
+        item:
+          material: LAVA_BUCKET
+          quantity: 1
+        buyPrice: 200
+        sellPrice: 20
+        slot: 2
+      4:
+        type: item
+        item:
+          material: CAULDRON
+          quantity: 1
+        buyPrice: 300
+        sellPrice: 30
+        slot: 3
+      5:
+        type: item
+        item:
+          material: BREWING_STAND
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: 100
+        slot: 4
+      6:
+        type: item
+        item:
+          material: WHITE_BED
+          quantity: 1
+        buyPrice: 80
+        sellPrice: 15
+        slot: 5
+      7:
+        type: item
+        item:
+          material: NAME_TAG
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 10
+        slot: 6
+      8:
+        type: item
+        item:
+          material: LEAD
+          quantity: 1
+        buyPrice: 20
+        sellPrice: 2
+        slot: 7
+      9:
+        type: item
+        item:
+          material: SADDLE
+          quantity: 1
+        buyPrice: 200
+        sellPrice: 50
+        slot: 8
+  drops:
+    name: "&9&lMob drops (page %page%)"
+    size: 36
+    buttons:
+      goBack:
+        slot: 31
+      previousPage:
+        slot: 30
+      nextPage:
+        slot: 32
+    items:
+      1:
+        type: item
+        item:
+          material: ROTTEN_FLESH
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 0
+      2:
+        type: item
+        item:
+          material: BONE
+          quantity: 16
+        buyPrice: 30
+        sellPrice: 3
+        slot: 1
+      3:
+        type: item
+        item:
+          material: GUNPOWDER
+          quantity: 16
+        buyPrice: 30
+        sellPrice: 3
+        slot: 2
+      4:
+        type: item
+        item:
+          material: STRING
+          quantity: 16
+        buyPrice: 30
+        sellPrice: 3
+        slot: 3
+      5:
+        type: item
+        item:
+          material: SPIDER_EYE
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 4
+      6:
+        type: item
+        item:
+          material: ENDER_PEARL
+          quantity: 4
+        buyPrice: 50
+        sellPrice: 5
+        slot: 5
+      7:
+        type: item
+        item:
+          material: SLIME_BALL
+          quantity: 16
+        buyPrice: 40
+        sellPrice: 4
+        slot: 6
+      8:
+        type: item
+        item:
+          material: PRISMARINE_CRYSTALS
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 7
+      9:
+        type: item
+        item:
+          material: PRISMARINE_SHARD
+          quantity: 16
+        buyPrice: 30
+        sellPrice: 3
+        slot: 8
+      10:
+        type: item
+        item:
+          material: BLAZE_ROD
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 9
+      11:
+        type: item
+        item:
+          material: MAGMA_CREAM
+          quantity: 16
+        buyPrice: 40
+        sellPrice: 4
+        slot: 10
+      12:
+        type: item
+        item:
+          material: LEATHER
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 11
+      13:
+        type: item
+        item:
+          material: RABBIT_HIDE
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 12
+      14:
+        type: item
+        item:
+          material: RABBIT_FOOT
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 13
+      15:
+        type: item
+        item:
+          material: INK_SAC
+          quantity: 16
+        buyPrice: 50
+        sellPrice: 5
+        slot: 14
+      16:
+        type: item
+        item:
+          material: FEATHER
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 15
+      17:
+        type: item
+        item:
+          material: EGG
+          quantity: 16
+        buyPrice: 20
+        sellPrice: 2
+        slot: 16

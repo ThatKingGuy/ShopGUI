@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shopGUI">
+    <output-path>$USER_HOME$/Desktop/test_server/plugins</output-path>
+    <root id="archive" name="shopGUI.jar">
+      <element id="module-output" name="ShopGUI" />
+    </root>
+  </artifact>
+</component>
